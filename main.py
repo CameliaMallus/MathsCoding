@@ -50,6 +50,6 @@ if __name__=="__main__":
     a, b = GeneratePrimesUpTo(2_500_000)
     c, d = IsPrime(435000000000000011)     #Number of secs since the Big Bang   ≃40s to run
     #print_with_changed_separator(a, "\n")
-    print(f"In {b} secondes")
+    print(f"In {b} seconds")
     print(c) 
-    print(f"In {d} secondes")
+    print(f"In {d} seconds")
