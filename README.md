@@ -1,2 +1,2 @@
 # MathsCoding
-Personal Python Maths functions Coding for learning purpose.
+Personal Python Maths functions Coding file for a learning purpose.
