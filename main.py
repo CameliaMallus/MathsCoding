@@ -53,7 +53,7 @@ def GCD(x, y):
 
 if __name__=="__main__":
     a, b = GeneratePrimesUpTo(100_000)
-    c, d = IsPrime(100_493)    #IsPrime(435_000_000_000_000_011)     Number of secs since the Big Bang   ≃40s to run
+    c, d = IsPrime(100_493)    #IsPrime(435_000_000_000_000_011)     ≃Nuember of secs since the Big Bang   ≃40s to run
     print_with_changed_separator(a, "\n")
     print(f"In {b} seconds")
     print(c) 
