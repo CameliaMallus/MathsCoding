@@ -45,11 +45,17 @@ def print_with_changed_separator(list, separator):
     for i in list:
         print(i, end=separator)
 
+def GCD(x, y):
+    """Returns the Greatest Common Divisor of x and y"""
+    for i in reversed(range(1, 1+min(x,y))): #reverse range order
+        if x%i==0 and y%i==0:
+            return i
 
 if __name__=="__main__":
-    a, b = GeneratePrimesUpTo(2_500_000)
-    c, d = IsPrime(435000000000000011)     #Number of secs since the Big Bang   ≃40s to run
+    a, b = GeneratePrimesUpTo(10_000)
+    c, d = IsPrime(123_456)    #IsPrime(435_000_000_000_000_011)     Number of secs since the Big Bang   ≃40s to run
     #print_with_changed_separator(a, "\n")
     print(f"In {b} seconds")
     print(c) 
     print(f"In {d} seconds")
+    print(GCD(150, 200))
